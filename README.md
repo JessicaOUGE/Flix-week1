@@ -25,7 +25,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 "Thread 1: signal SIGABRT", When I try to run this app on my iphone.
-And give me ERROR:
+And ERROR:
 /private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: stat() failed with errno=1 /private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: code signature invalid for '/private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire'
 /private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: stat() failed with errno=1
 
