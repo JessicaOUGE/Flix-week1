@@ -17,7 +17,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [X] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [X] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
 
@@ -25,3 +25,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 "Thread 1: signal SIGABRT", When I try to run this app on my iphone.
+And ERROR:
+/private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: stat() failed with errno=1 /private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: code signature invalid for '/private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire'
+/private/var/containers/Bundle/Application/8C0DD525-AACE-4FFC-B97C-A3273A04229F/Flix-week1.app/Frameworks/Alamofire.framework/Alamofire: stat() failed with errno=1
+
+Finally, I have connected to IOS 12, and it works! And there some changes for version 12. I should add "@available(iOS 13.0, *)" at AppDelegate.swift and SceneDelegate.swift. Also add "var window: UIWindow?" at AppDelegate.swift and SceneDelegate.swift. 
+
